@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guesser</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+      }
+      .number {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #333;
+      }
+      input[type="submit"] {
+        padding: 9px;
+        font-family: inherit;
+        border-radius: 5px;
+        border: 1px solid #333;
+      }
+      form {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Number Guesser</h1>
+      <p>
+        Guess a number between <span class="min"></span> and
+        <span class="max"></span>
+      </p>
+      <form class="form">
+        <input type="text" class="number" />
+        <input type="submit" class="submit" />
+      </form>
+      <p class="message"></p>
+    </div>
+    <script src="scipt2.js"></script>
+  </body>
+</html>
